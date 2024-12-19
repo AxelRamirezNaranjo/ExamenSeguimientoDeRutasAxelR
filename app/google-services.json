@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477963174540",
+    "project_id": "seguimientoderutas-ba973",
+    "storage_bucket": "seguimientoderutas-ba973.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477963174540:android:5ba049c8252c30de24b1a9",
+        "android_client_info": {
+          "package_name": "com.example.seguimientoderutas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxp2_-Mx47VnuL4Eqb_MtxYE8OvgksoDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

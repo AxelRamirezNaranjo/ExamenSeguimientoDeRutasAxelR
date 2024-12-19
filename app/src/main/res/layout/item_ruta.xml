@@ -1,0 +1,27 @@
+<!-- item_ruta.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Aquí puedes tener un TextView para el ID de la ruta -->
+    <TextView
+        android:id="@+id/tvRutaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruta ID" />
+
+    <!-- Otros elementos como el nombre y la fecha de la ruta -->
+    <TextView
+        android:id="@+id/tvRutaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruta Nombre" />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha" />
+
+</LinearLayout>

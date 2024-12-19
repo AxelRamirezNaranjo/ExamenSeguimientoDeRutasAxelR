@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#DCDCDC"> <!-- Cambia por un color específico -->
+
+    <!-- AppBarLayout para el encabezado -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTituloxd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historial de Rutas"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:gravity="center"
+            android:padding="16dp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Titulo de la pantalla -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historial de Rutas"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <!-- RecyclerView para mostrar las rutas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRutas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"/>
+
+    <!-- ProgressBar (opcional) para mostrar mientras se cargan los datos -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <!-- Mensaje cuando no hay rutas -->
+    <TextView
+        android:id="@+id/tvNoRutas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No hay rutas disponibles."
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="@android:color/darker_gray"/>
+
+</LinearLayout>
